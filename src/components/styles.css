@@ -1,0 +1,39 @@
+/* Add some margin to the top of the page */
+body {
+    margin-top: 20px;
+}
+
+/* Style the card container */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the todo list items */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the delete button */
+.btn-secondary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Style the input and button in the form */
+.form-control {
+    width: calc(100% - 85px);
+    margin-right: 10px;
+}
+
+/* Center the add button in the form */
+button[type="submit"] {
+    margin-top: 5px;
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
